@@ -19,7 +19,7 @@ A few important things to note before you get started:
 - Feel free to leave lots of notes/comments to help us understand your work.
 - When you are ready, reply to this email and attach your results.
  
-### Code Challenge v2.11
+### Code Challenge
 
 1\. Data Integrity Checking & Cleanup
 
