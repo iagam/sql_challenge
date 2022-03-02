@@ -469,10 +469,10 @@ INSERT INTO continent_map values
 ('NOR','EU'),
 ('NPL','AS'),
 ('NRU','OC'),
-('','OC'),
-('','AS'),
-('','AS'),
-('','AS'),
+(null,'OC'),
+(null,'AS'),
+(null,'AS'),
+(null,'AS'),
 ('NZL','OC'),
 ('OMN','AS'),
 ('PAK','AS'),
@@ -2646,6 +2646,3 @@ INSERT INTO per_capita values
 ('ZMB',2012,1462.887261),
 ('ZWE',2012,714.2330072)
 ;
-
-
-
