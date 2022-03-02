@@ -284,4 +284,13 @@ insert into countries values
 ('ZWE','Zimbabwe')
  ;
  
- 
+ -- Creating continent_map table
+CREATE TABLE IF NOT EXISTS public.continent_map (
+country_code text null,
+continent_code text null,
+FOREIGN KEY (country_code)
+	REFERENCES countries (country_code),
+FOREIGN KEY (continent_code)
+  REFERENCES continents (continent_code)
+);
+
