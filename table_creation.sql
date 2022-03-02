@@ -286,8 +286,8 @@ insert into countries values
  
  -- Creating continent_map table
 CREATE TABLE IF NOT EXISTS public.continent_map (
-country_code text null,
-continent_code text null
+    country_code text null,
+    continent_code text null
 );
 
 -- Inserting data into continent_map table
@@ -556,6 +556,15 @@ INSERT INTO continent_map values
 ('ZMB','AF'),
 ('ZWE','AF')
 ;
+
+-- Creating table gdp_per_capita
+CREATE TABLE IF NOT EXISTS public.per_capita (
+    country_code text not null,
+    year int not null,
+    gdp_per_capita double precision null
+);
+
+-- Inserting data into gdp_per_capita
 
 
 
