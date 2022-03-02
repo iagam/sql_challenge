@@ -22,7 +22,7 @@ INSERT INTO continents values
 ;
 
 -- Creating continents table
-CREATE TABLE IF NOT EXISTS public.continents
+CREATE TABLE IF NOT EXISTS public.countries
 (
     country_code varchar(3) UNIQUE NOT NULL,
     country_name text NOT NULL
