@@ -2646,6 +2646,3 @@ INSERT INTO per_capita values
 ('ZMB',2012,1462.887261),
 ('ZWE',2012,714.2330072)
 ;
-
-
-
