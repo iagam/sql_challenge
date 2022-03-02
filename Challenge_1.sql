@@ -16,3 +16,14 @@ ORDER BY country_code DESC
 -- The record that you keep should be the first one when sorted by the continent_code alphabetically ascending. 
 -- Provide the query/ies and explanation of step(s) that you follow to delete these records.
 
+-- 1. Create a temporary table dropping all duplicate values
+CREATE TABLE IF NOT EXISTS continent_map_temp (LIKE continent_map);
+
+INSERT INTO continent_map_temp
+(SELECT DISTINCT 
+    country_code,
+    continent_code
+FROM continent_map
+);
+
+
