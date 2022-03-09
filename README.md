@@ -1,4 +1,4 @@
-### Introduction - SQL Challenge
+### SQL Challenge
 
 A few important things to note before you get started:
 
