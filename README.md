@@ -7,7 +7,7 @@ A few important things to note before getting started:
 - There are no intentional gotchas, trick questions, or traps; the challenge is intended to demonstrate some of the typical day-to-day SQL skills that the job requires.
 - Some of these questions may seem nonsensical and you may find yourself asking, "why would anyone want to know that?!" They are intended purely as a measure of your SQL skills and _not_ as actual questions that we would expect to ask of this type of data set. Please take them with a grain of salt.
 
-### Instructions
+### Instructions:
 
 - Create a SQL database using the attached CSV files.
 - Use the database to answer the following questions.
