@@ -18,7 +18,7 @@ A few important things to note before getting started:
 - Provide all code, including what you used to create the database and import data, and answers related to each question immediately below the question.
 - Feel free to leave lots of notes/comments to help us understand your work.
  
-### Code Challenge
+### Code Challenge:
 
 1\. Data Integrity Checking & Cleanup
 
