@@ -1,6 +1,6 @@
 ### Introduction: SQL Challenge
 
-A few important things to note before getting started:
+A few important things to keep in mind before getting started:
 
 - All work should be done in SQL. Any variant is fine (e.g. MS SQL, Postgres, MySQL, etc.). If you normally use R, SAS, or other similar tools with SQL it's important that you show that you can work in SQL by itself to produce the correct answers to this challenge.
 - There are some blank/null values in this set. That's how we found it and it reflects the nature of imperfect data. Please work with this and provide explanations of any issues or workarounds required to arrive at your answers.
@@ -89,4 +89,4 @@ rank | continent_name | country_code | country_name | avg_gdp_per_capita
    1 | Europe         | MCO          | Monaco       |        $152,936.10
    1 | North America  | BMU          | Bermuda      |         $83,788.48
    1 | Oceania        | AUS          | Australia    |         $47,070.39
-   1 | South America  | CHL          | Chile        |         $10,781.71
+   0 | South America  | CHL          | Chile        |         $10,781.71
