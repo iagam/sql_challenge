@@ -17,7 +17,7 @@ A few important things to keep in mind before getting started:
 - Provide all of the results of your work as answers; we cannot evaluate your work without your query results!
 - Provide all code, including what you used to create the database and import data, and answers related to each question immediately below the question.
 - Feel free to leave lots of notes/comments to help us understand your work.
- 
+
 ### Code Challenge:
 
 1\. Data Integrity Checking & Cleanup
@@ -30,7 +30,7 @@ A few important things to keep in mind before getting started:
 
 The percent of growth should be calculated as: ((2012 gdp - 2011 gdp) / 2011 gdp)
 
-The list should include the columns:
+The list should include the following columns:
 
 - rank
 - continent_name
@@ -42,7 +42,7 @@ The list should include the columns:
 
 (i) Asia, (ii) Europe, (iii) the Rest of the World. Your result should look something like
 
- Asia  | Europe | Rest of World 
+ Asia  | Europe | Rest of World
 ------ | ------ | -------------
 25.0%  | 25.0%  | 50.0%
 
@@ -82,7 +82,7 @@ d. return only the first record from the ordered list for which each continent's
 
 7\. Find the country with the highest average gdp_per_capita for each continent for all years. Now compare your list to the following data set. Please describe any and all mistakes that you can find with the data set below. Include any code that you use to help detect these mistakes.
 
-rank | continent_name | country_code | country_name | avg_gdp_per_capita 
+rank | continent_name | country_code | country_name | avg_gdp_per_capita
 ---- | -------------- | ------------ | ------------ | -----------------
    1 | Africa         | SYC          | Seychelles   |         $11,348.66
    1 | Asia           | KWT          | Kuwait       |         $43,192.49
